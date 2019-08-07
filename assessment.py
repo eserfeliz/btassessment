@@ -4,9 +4,7 @@ import urllib.parse as ul
 
 
 def get_response(url):
-    username = 'eserfeliz'
-    personal_token = 'b550bde24f05577b125088c861e42647ff2137f0'
-    return requests.get(url, auth=(username, personal_token))
+    return requests.get(url)
 
 
 def get_json(url):
