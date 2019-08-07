@@ -80,7 +80,7 @@ for url_value in urls.values():
                     actor = item['actor']
                     print("Authenticated user: {}\n".format(actor['login']))
                     repo = item['repo']
-                    print("Repo id (nested): {}\nRepo name: {}".format(repo['id'], repo['name']))
+                    print("Repo id: {}\nRepo name: {}".format(repo['id'], repo['name']))
                 except TypeError:
                     pass
     else:
